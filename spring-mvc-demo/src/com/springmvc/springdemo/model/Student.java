@@ -14,7 +14,7 @@ public class Student {
 
 	public Student() {
 		super();
-		languageOptions = new LinkedHashMap<>();
+		languageOptions = new LinkedHashMap<String, String>();
 		languageOptions.put("Java", "Java");
 		languageOptions.put("C++", "C++");
 		languageOptions.put("DotNet", "DotNet");
